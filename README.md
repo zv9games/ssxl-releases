@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ime-logo.jpg" alt="Ivory Monolith Entertainment LLC" width="600"/>
+</p>
+
 # SSXL Engine Releases
 
 Welcome to the official public distribution repository for **SSXL**, the high-performance, GPU-accelerated engine synthesized via **SSXL-GEN**. 
@@ -34,14 +38,14 @@ SSXL is distributed across four distinct tiers tailored for evaluation, open cre
 
 ### 1. Download & Verify
 Grab the latest pre-compiled archive for your operating system from the [Releases Tab](../../releases):
-* `ssxl-beta-v<version>-windows-x86_64.zip`
-* `ssxl-beta-v<version>-linux-x86_64.tar.gz`
-* `ssxl-beta-v<version>-macos-universal.zip`
+- `ssxl-beta-v<version>-windows-x86_64.zip`
+- `ssxl-beta-v<version>-linux-x86_64.tar.gz`
+- `ssxl-beta-v<version>-macos-universal.zip`
 
 ### 2. System Requirements
-* **GPU:** Vulkan 1.3 / DirectX 12 / Metal-compatible dedicated GPU (Compute Shader support required).
-* **OS:** Windows 10/11 (64-bit), Linux (glibc 2.31+, modern desktop environment), or macOS 12+ (Apple Silicon or modern Intel).
-* **RAM:** 8 GB minimum (16 GB recommended for high-density compute scenes).
+- **GPU:** Vulkan 1.3 / DirectX 12 / Metal-compatible dedicated GPU (Compute Shader support required).
+- **OS:** Windows 10/11 (64-bit), Linux (glibc 2.31+, modern desktop environment), or macOS 12+ (Apple Silicon or modern Intel).
+- **RAM:** 8 GB minimum (16 GB recommended for high-density compute scenes).
 
 ### 3. Launching the Editor
 Extract the archive and execute the main binary:
@@ -52,34 +56,3 @@ Extract the archive and execute the main binary:
 
 # Windows
 ssxl-editor.exe
-```
-
-By default, the editor will boot directly into the workspace selector or open the bundled Pacman showcase project.
-
----
-
-## 🎮 Included Showcase: Pacman (10 Modes)
-
-Every Beta release includes a fully operational reference project showcasing the limits of the SSXL architecture:
-1. **Classic Arcade:** Authentic frame timing, tilemaps, and state machines.
-2. **GPU Swarm:** Hundreds of dynamic entities pathfinding concurrently via compute kernels.
-3. **Hyper-Speed:** High-frequency physics and sub-frame tick updates.
-4. **Procedural Maze:** Dynamic runtime layout synthesis via cellular automata.
-5. **Inverse Hunter:** Dynamic AI inversion and multi-target chase algorithms.
-6. *...plus 5 additional experimental game variations demonstrating live inspector mutations.*
-
-Select different modes directly from the **SceneTree** or swap play configs inside the **Inspector** at runtime.
-
----
-
-## 🐛 Feedback & Issue Reporting
-
-Because SSXL-BETA is an active testbed release, your feedback is crucial:
-* **Bug Reports:** Open an issue in this repository using the `[Beta Bug]` prefix.
-* **Performance Logs:** Attach system specs and the auto-generated `ssxl_session.log` from your root folder.
-
----
-
-## ⚖️ License
-
-The binaries and demo assets distributed in this repository are licensed under the **SSXL Binary Evaluation & Distribution License**. See [`LICENSE.md`](LICENSE.md) for full terms and conditions.
